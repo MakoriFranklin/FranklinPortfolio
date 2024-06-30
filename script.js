@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fadeInElements = document.querySelectorAll('.fade-in');
 
     const observerOptions = {
-        threshold: 0.09 // Adjust this value to trigger the animation earlier or later
+        threshold: 0.1 
     };
 
     const fadeInOnScroll = new IntersectionObserver((entries, observer) => {
